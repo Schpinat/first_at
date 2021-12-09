@@ -29,7 +29,7 @@ public class FirstTest extends WebDriverSettings {
     }
 
 
-    @Test
+    @Test // негативный
     public void selenideTest() {
 // Инициализируем веб-драйвер
         WebDriverManager.chromedriver().setup();
